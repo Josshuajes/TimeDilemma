@@ -1,0 +1,123 @@
+There are 57 section headers, starting at offset 0xb38c2c8:
+
+Section Headers:
+  [Nr] Name              Type             Address           Offset
+       Size              EntSize          Flags  Link  Info  Align
+  [ 0]                   NULL             0000000000000000  00000000
+       0000000000000000  0000000000000000           0     0     0
+  [ 1] .head.text        PROGBITS         ffffffc000080000  00010000
+       00000000000002b0  0000000000000000  AX       0     0     16
+  [ 2] .text             PROGBITS         ffffffc000081000  00011000
+       00000000008b8a80  0000000000000000  AX       0     0     4096
+  [ 3] .text.init        PROGBITS         ffffffc000939a80  008c9a80
+       0000000000000080  0000000000000000  AX       0     0     16
+  [ 4] .devexit.text     PROGBITS         ffffffc000939b00  008c9b00
+       000000000000019c  0000000000000000  AX       0     0     4
+  [ 5] .devinit.text     PROGBITS         ffffffc000939c9c  008c9c9c
+       0000000000002648  0000000000000000  AX       0     0     4
+  [ 6] .rkp.bitmap       PROGBITS         ffffffc00093d000  008cd000
+       0000000000018000  0000000000000000  WA       0     0     8
+  [ 7] .rkp.dblmap       PROGBITS         ffffffc000955000  008e5000
+       0000000000018000  0000000000000000  WA       0     0     8
+  [ 8] .vmm              PROGBITS         ffffffc00096d000  008fd000
+       0000000000048b50  0000000000000000  AX       0     0     1
+  [ 9] .rodata           PROGBITS         ffffffc0009be000  0094e000
+       000000000045f488  0000000000000000   A       0     0     4096
+  [10] .rodata1          PROGBITS         ffffffc000e1d488  00dad488
+       0000000000000b20  0000000000000000  WA       0     0     8
+  [11] __bug_table       PROGBITS         ffffffc000e1dfa8  00dadfa8
+       000000000001eff0  0000000000000000   A       0     0     1
+  [12] .builtin_fw       PROGBITS         ffffffc000e3cf98  00dccf98
+       0000000000000108  0000000000000000   A       0     0     8
+  [13] __ksymtab         PROGBITS         ffffffc000e3d0a0  00dcd0a0
+       0000000000011120  0000000000000000   A       0     0     8
+  [14] __ksymtab_gpl     PROGBITS         ffffffc000e4e1c0  00dde1c0
+       000000000000cf50  0000000000000000   A       0     0     8
+  [15] __kcrctab         PROGBITS         ffffffc000e5b110  00deb110
+       0000000000008890  0000000000000000   A       0     0     8
+  [16] __kcrctab_gpl     PROGBITS         ffffffc000e639a0  00df39a0
+       00000000000067a8  0000000000000000   A       0     0     8
+  [17] __ksymtab_strings PROGBITS         ffffffc000e6a148  00dfa148
+       00000000000243b8  0000000000000000   A       0     0     1
+  [18] __param           PROGBITS         ffffffc000e8e500  00e1e500
+       00000000000037c0  0000000000000000   A       0     0     8
+  [19] __modver          PROGBITS         ffffffc000e91cc0  00e21cc0
+       0000000000000340  0000000000000000   A       0     0     8
+  [20] __ex_table        PROGBITS         ffffffc000e92000  00e22000
+       0000000000006ae0  0000000000000000   A       0     0     8
+  [21] .notes            NOTE             ffffffc000e98ae0  00e28ae0
+       0000000000000024  0000000000000000   A       0     0     4
+  [22] .init.text        PROGBITS         ffffffc000e99000  00e29000
+       0000000000051c7c  0000000000000000  AX       0     0     8
+  [23] .exit.text        PROGBITS         ffffffc000eeac7c  00e7ac7c
+       0000000000005cac  0000000000000000  AX       0     0     4
+  [24] .init.data        PROGBITS         ffffffc000ef0a00  00e80a00
+       000000000000e1b0  0000000000000000  WA       0     0     256
+  [25] .data..percpu     PROGBITS         ffffffc000eff000  00e8f000
+       0000000000005380  0000000000000000  WA       0     0     64
+  [26] .altinstructions  PROGBITS         ffffffc000f05000  00e95000
+       000000000001416c  0000000000000000   A       0     0     1
+  [27] .altinstr_replace PROGBITS         ffffffc000f1916c  00ea916c
+       0000000000006d84  0000000000000000  AX       0     0     4
+  [28] .data             PROGBITS         ffffffc000f20000  00eb0000
+       0000000000124498  0000000000000000  WA       0     0     4096
+  [29] sio_patches       PROGBITS         ffffffc001044498  00fd4498
+       0000000000000018  0000000000000000  WA       0     0     8
+  [30] .clk_gate.        PROGBITS         ffffffc0010444b0  00fd44b0
+       0000000000004da0  0000000000000000  WA       0     0     8
+  [31] .clk_div.         PROGBITS         ffffffc001049250  00fd9250
+       0000000000000ff0  0000000000000000  WA       0     0     8
+  [32] .clk_fixed_rate.  PROGBITS         ffffffc00104a240  00fda240
+       0000000000000370  0000000000000000  WA       0     0     8
+  [33] .clk_pll.         PROGBITS         ffffffc00104a5b0  00fda5b0
+       00000000000002a0  0000000000000000  WA       0     0     8
+  [34] .clk_mux.         PROGBITS         ffffffc00104a850  00fda850
+       0000000000001080  0000000000000000  WA       0     0     8
+  [35] .clk_fixed_factor PROGBITS         ffffffc00104b8d0  00fdb8d0
+       0000000000000108  0000000000000000  WA       0     0     8
+  [36] .vclk_dfs.        PROGBITS         ffffffc00104b9d8  00fdb9d8
+       00000000000002a0  0000000000000000  WA       0     0     8
+  [37] .vclk_umux.       PROGBITS         ffffffc00104bc78  00fdbc78
+       00000000000000e0  0000000000000000  WA       0     0     8
+  [38] .vclk_p1.         PROGBITS         ffffffc00104bd58  00fdbd58
+       0000000000000070  0000000000000000  WA       0     0     8
+  [39] .vclk_m1d1g1.     PROGBITS         ffffffc00104bdc8  00fdbdc8
+       00000000000003c0  0000000000000000  WA       0     0     8
+  [40] .vclk_pxmxdx.     PROGBITS         ffffffc00104c188  00fdc188
+       0000000000000150  0000000000000000  WA       0     0     8
+  [41] .vclk_grpgate.    PROGBITS         ffffffc00104c2d8  00fdc2d8
+       0000000000001180  0000000000000000  WA       0     0     8
+  [42] .vclk_d1.         PROGBITS         ffffffc00104d458  00fdd458
+       00000000000000e0  0000000000000000  WA       0     0     8
+  [43] .vclk_m1.         PROGBITS         ffffffc00104d538  00fdd538
+       0000000000000038  0000000000000000  WA       0     0     8
+  [44] .bss              NOBITS           ffffffc00104e000  00fdd570
+       00000000004ffb50  0000000000000000  WA       0     0     4096
+  [45] .comment          PROGBITS         0000000000000000  00fdd570
+       000000000000002e  0000000000000001  MS       0     0     1
+  [46] .debug_line       PROGBITS         0000000000000000  00fdd59e
+       00000000008065c1  0000000000000000           0     0     1
+  [47] .debug_info       PROGBITS         0000000000000000  017e3b5f
+       0000000007f66d25  0000000000000000           0     0     1
+  [48] .debug_abbrev     PROGBITS         0000000000000000  0974a884
+       0000000000340799  0000000000000000           0     0     1
+  [49] .debug_aranges    PROGBITS         0000000000000000  09a8b020
+       0000000000025c90  0000000000000000           0     0     16
+  [50] .debug_ranges     PROGBITS         0000000000000000  09ab0cb0
+       00000000002dc9a0  0000000000000000           0     0     16
+  [51] .debug_frame      PROGBITS         0000000000000000  09d8d650
+       00000000002023a0  0000000000000000           0     0     8
+  [52] .debug_str        PROGBITS         0000000000000000  09f8f9f0
+       0000000000322dca  0000000000000001  MS       0     0     1
+  [53] .debug_loc        PROGBITS         0000000000000000  0a2b27ba
+       00000000009b5ae6  0000000000000000           0     0     1
+  [54] .shstrtab         STRTAB           0000000000000000  0ac682a0
+       000000000000027b  0000000000000000           0     0     1
+  [55] .symtab           SYMTAB           0000000000000000  0ac68520
+       00000000004f2720  0000000000000018          56   179317     8
+  [56] .strtab           STRTAB           0000000000000000  0b15ac40
+       0000000000231681  0000000000000000           0     0     1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings)
+  I (info), L (link order), G (group), T (TLS), E (exclude), x (unknown)
+  O (extra OS processing required) o (OS specific), p (processor specific)
